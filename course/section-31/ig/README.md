@@ -11,6 +11,7 @@
 ### Create few migration files
 - `npx node-pg-migrate create table comments`
 - `npm run migrate create rename column contents to body`
+- `npm run migrate create add posts table`
 
 ### Execute the migration
 - Commit - `npm run migrate up`
